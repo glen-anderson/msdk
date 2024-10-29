@@ -153,7 +153,7 @@ The `Libraries/MiscDrivers` folder of the MSDK contains drivers for miscellaneou
 | Configuration Variable | Description                                                | Details                                                      |
 | ---------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
 |                        |                                                            |                                                              |
-| `CAMERA`               | (Optional) Set the Camera drivers to use                   | This option is only useful for the MAX78000 and MAX78002 and sets the camera drivers to use for the project. Permitted values are `HM01B0`, `HM0360_MONO`, `HM0360_COLOR`, `OV5642`, `OV7692` (default), or `PAG7920`. Camera drivers can be found in the [`Libraries/MiscDrivers/Camera`](../Libraries/MiscDrivers/Camera) folder. Depending on the selected camera, a compiler definition may be added to the build. See the `board.mk` file for the active BSP for more details. |
+| `CAMERA`               | (Optional) Set the Camera drivers to use                   | This option is only useful for the MAX78000 and MAX78002 and sets the camera drivers to use for the project. Permitted values are `HM01B0`, `HM0360_MONO`, `HM0360_COLOR`, `OV5642`, `OV7692` (default), or `PAG7920`. Camera drivers can be found in the `Libraries/MiscDrivers/Camera` folder. Depending on the selected camera, a compiler definition may be added to the build. See the `board.mk` file for the active BSP for more details. |
 
 ---
 
@@ -210,7 +210,7 @@ Developing a UART Command-Line Interface (CLI) is a common task while developing
 
 See the [`Libraries/CLI/README.md`](../Libraries/CLI/README.md) document for more details.
 
-## CoreMark
+## CoreMarkS
 
 [EEMBC’s CoreMark®](https://www.eembc.org/coremark/) is a benchmark that measures the performance of microcontrollers (MCUs) and central processing units (CPUs) used in embedded systems. CoreMark is a simple, yet sophisticated benchmark that is designed specifically to test the functionality of a processor core. Running CoreMark produces a single-number score allowing users to make quick comparisons between processors.
 
